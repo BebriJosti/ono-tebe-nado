@@ -123,16 +123,12 @@ ul {
 .text_right {
   margin-bottom: 135px;
   line-height: 100px;
-  letter-spacing: 10px;
+  letter-spacing: 12px;
   text-align: end;
 }
 
 .title_text_letter {
   letter-spacing: 60px;
-}
-
-.title_text_second_letter {
-  letter-spacing: 10px;
 }
 
 .no_letter_space {
