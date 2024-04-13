@@ -14,8 +14,8 @@ ul {
 }
 
 .header_logo_container {
-  max-width: 148px;
-  max-height: 105px;
+  width: 148px;
+  height: 105px;
 }
 
 .header_logo_image {
