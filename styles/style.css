@@ -13,7 +13,13 @@ ul {
   padding: 52px 80px 56px 50px;
 }
 
+.header_logo_container {
+  max-width: 148px;
+  max-height:105px;
+}
+
 .header_logo_image {
+  
   margin: 0 194px 0 0;
 }
 
