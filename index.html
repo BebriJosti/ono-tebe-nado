@@ -13,13 +13,19 @@
     <header class="header container">
       <nav class="header_menu">
         <a>главная</a>
-        <a href="#0">посмотреть лоты</a>
-        <a href="#0">об аукционе</a>
+        <a href="#0">посмотреть&nbsp;лоты</a>
+        <a href="#0">об&nbsp;аукционе</a>
       </nav>
       <div class="header_logo_image">
-        <a><img src="../images/logo-black.svg" alt="чёрный логотип" /></a>
+        <a
+          ><img
+            src="../images/logo-black.svg"
+            alt="чёрный логотип"
+            height="180"
+            width="180"
+        /></a>
       </div>
-      <ol class="header_links">
+      <ul class="header_links">
         <li>
           <a
             class="header_links_text header_links_underline"
@@ -36,17 +42,23 @@
           >
         </li>
         <li>
-          <a class="header_links_text">наб. Принсенграхт 263- 265, Амстердам</a>
+          <p class="header_links_text">наб. Принсенграхт 263- 265, Амстердам</p>
         </li>
-      </ol>
+      </ul>
     </header>
     <main class="main container">
       <section class="title">
-        <div class="title_head_text">
-          <p class="text_top">он о</p>
-          <p class="text_center">теб</p>
-          <p class="text_right">адо</p>
-        </div>
+        <h1 class="title_head_text">
+          <span class="text_top">он о</span>
+          <span class="text_center"
+            >те<span class="title_text_letter">бе</span></span
+          >
+          <span class="text_right"
+            ><span class="title_text_letter">н</span
+            ><span class="title_text_second_letter">ад</span><span> </span
+            ><span class="no_letter_space">о</span></span
+          >
+        </h1>
         <div class="title_text">
           <p>Аукцион вещей, в которые никто не верил</p>
           <div class="title_button_section">
@@ -55,19 +67,21 @@
         </div>
       </section>
       <section class="cards">
-        <h1 class="cards_title">лоты</h1>
-        <div class="cards_container">
-          <div class="first_card">
-            <p class="card_title">Фильм режиссёра, который бросил киношколу</p>
+        <h2 class="cards_title">лоты</h2>
+        <ul class="cards_container">
+          <li class="card first_card">
+            <h3 class="card_title">
+              Фильм режиссёра, который бросил киношколу
+            </h3>
             <p class="card_text">
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
               ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
             </p>
-          </div>
-          <div class="second_card">
-            <p class="card_title">
+          </li>
+          <li class="card second_card">
+            <h3 class="card_title">
               Книга, где описан один скучный день из жизни рекламного агента
-            </p>
+            </h3>
             <p class="card_text">
               Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
               переходами на древнеанглийский. В ней одновременно рассказывается
@@ -75,19 +89,19 @@
               времён. И это всё накладывается на эпическую поэму Гомера. Сколько
               бы вы поставили на «Улисса» Джеймса Джойса?
             </p>
-          </div>
-          <div class="third_card">
-            <p class="card_title">
+          </li>
+          <li class="card third_card">
+            <h3 class="card_title">
               Картина, которую повторит даже 5-летний сын маминой подруги
-            </p>
+            </h3>
             <p class="card_text">
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
               похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
               Сколько бы вы на такое поставили, если бы не знали, что это — одна
               из революционных работ Кандинского?
             </p>
-          </div>
-        </div>
+          </li>
+        </ul>
         <a href="#0" class="card_link">посмотреть больше</a>
       </section>
       <section class="about">
@@ -100,15 +114,15 @@
             />
           </div>
           <div class="about_all_text">
-            <p class="about_title">Об аукционе</p>
-            <p class="about_text_first">
+            <h2 class="about_title">Об аукционе</h2>
+            <p class="about_text about_text_first">
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть ни
               на один аукцион. Потому что кому нужен дневник девочки-подростка
               или картина, которую может нарисовать даже ребёнок? Кому нужны все
               эти странные вещи, созданные любителями?
             </p>
-            <p class="about_text_second">
+            <p class="about_text">
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
               непонятые. Когда-то они казались просто неудачными. Но, несмотря
@@ -123,10 +137,10 @@
     </main>
     <footer class="footer">
       <div class="footer_links">
-        <ol class="header_links">
+        <ul class="footer_links_text footer_text">
           <li>
             <a
-              class="header_links_text header_links_underline"
+              class="footer_links_text header_links_underline"
               href="tel:+99995555555"
             >
               +9 999 555 5555</a
@@ -134,19 +148,19 @@
           </li>
           <li>
             <a
-              class="header_links_text header_links_underline"
+              class="footer_links_text header_links_underline"
               href="mailto:info@sobaka.ge"
               >info@sobaka.ge</a
             >
           </li>
           <li>
-            <a class="header_links_text"
-              >наб. Принсенграхт 263- 265, Амстердам</a
-            >
+            <p class="footer_links_text">
+              наб. Принсенграхт 263- 265, Амстердам
+            </p>
           </li>
-        </ol>
+        </ul>
       </div>
-      <div class="footer_nav">
+      <div class="footer_nav footer_text">
         <nav class="footer_menu">
           <a>главная</a>
           <a href="#0">посмотреть лоты</a>
@@ -154,21 +168,27 @@
         </nav>
       </div>
       <div class="footer_logo">
-        <img
-          class="footer_image"
-          src="./images/yt.svg"
-          alt="Белый логотип в чёрном круге"
-        />
-        <img
-          class="footer_image"
-          src="./images/vk.svg"
-          alt="Белый логотип в чёрном круге"
-        />
-        <img
-          class="footer_image"
-          src="./images/pinterest.svg"
-          alt="Белый логотип в чёрном круге"
-        />
+        <a>
+          <img
+            class="footer_image"
+            src="./images/yt.svg"
+            alt="Белый логотип в чёрном круге"
+          />
+        </a>
+        <a>
+          <img
+            class="footer_image"
+            src="./images/vk.svg"
+            alt="Белый логотип в чёрном круге"
+          />
+        </a>
+        <a>
+          <img
+            class="footer_image"
+            src="./images/pinterest.svg"
+            alt="Белый логотип в чёрном круге"
+          />
+        </a>
       </div>
     </footer>
   </body>
